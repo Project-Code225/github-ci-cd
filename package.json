@@ -4,10 +4,13 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "build": "echo \"Building project...\""
   },
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3"
   }
 }
